@@ -1,8 +1,8 @@
 module top{
-    input a;
-    output b;
+    input in;
+    output out;
 }
 
-assign b = ~a;
+assign out = ~in;
 
 endmodule
